@@ -131,7 +131,7 @@ h2{
     z-index: -1;
   }
   
-  /* Inner background layer to hide center part */
+  /* Inner background layer to hide the center part */
 .card::after {
     content: "";
     position: absolute;
@@ -179,5 +179,6 @@ h2{
 .card form.active .btn::after{
     display:block;
 }
+
 
   
